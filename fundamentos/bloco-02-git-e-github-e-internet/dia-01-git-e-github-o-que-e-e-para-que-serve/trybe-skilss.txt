@@ -6,3 +6,10 @@ O que eu vou aprender na Trybe
 
 HTML
 CSS
+
+-Unix
+-Bash
+-Git
+-HTML
+-CSS
+
