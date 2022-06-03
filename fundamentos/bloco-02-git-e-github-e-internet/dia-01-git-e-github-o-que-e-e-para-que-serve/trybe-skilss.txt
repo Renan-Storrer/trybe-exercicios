@@ -1,4 +1,14 @@
 
+
+-Unix 
+-Bash
+-Git
+-HTML
+-CSS
+-JavaScript
+=======
+
+
 -Unix
 -Bash
 -Git
