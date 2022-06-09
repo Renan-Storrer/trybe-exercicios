@@ -6,18 +6,23 @@
   .goomba {
     width: 100px;
     position: absolute;
+    top: 400px;
   }
   
   .baloon {
     position: absolute;
+    left: 270px;
   }
   
   .speach {
     font-size: 25px;
     position: absolute;
+    left: 270px;
   }
   
   .bowser {
     width: 200px;
     position: absolute;
+    left: 600px;
+    top: 250px;
   }
