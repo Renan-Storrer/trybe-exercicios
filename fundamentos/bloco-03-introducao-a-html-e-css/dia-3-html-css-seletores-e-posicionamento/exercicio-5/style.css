@@ -13,3 +13,8 @@ ol li:nth-child(odd) {
 h1, h2, h3, h4,h5, h6 {
     color: red;
 }
+
+h1em h2em h3em h4em h5em h6em {
+    font-size: 40px;
+    border: 1px solid black;
+}
