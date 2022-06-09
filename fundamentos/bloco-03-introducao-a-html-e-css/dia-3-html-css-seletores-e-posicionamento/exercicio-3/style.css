@@ -5,3 +5,8 @@ h1, p {
 li:hover {
     background-color: blue;
 }
+
+li:active {
+    font-family: monospace;
+    font-size: x-large;
+}
