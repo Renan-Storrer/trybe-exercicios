@@ -1,5 +1,6 @@
 .super-mario {
     width: 200px;
+    position: absolute;
   }
   
   .goomba {
