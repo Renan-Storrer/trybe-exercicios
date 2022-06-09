@@ -9,4 +9,5 @@ li:hover {
 li:active {
     font-family: monospace;
     font-size: x-large;
+    list-style: none;
 }
