@@ -26,3 +26,11 @@ li {
 li em {
     font-weight: 700;
 }
+
+#linguagens li:not(:nth-child(n + 4)) {
+    color: blue;
+}
+
+.pink-bg {
+    background-color: pink;
+}
