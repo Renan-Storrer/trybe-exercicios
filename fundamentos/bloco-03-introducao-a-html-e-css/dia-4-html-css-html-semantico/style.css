@@ -1,12 +1,17 @@
-*{
+
+nav{
+    color: white;
+    background-color: rgb(24, 0, 161);
+    font-family: monospace;
+    font-size: large;
+    padding: 1px;
     margin: 0;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
-#nav {
-   
-    font-size: 20px;
-    font-family: monospace;
-    background-color: aquamarine;
-    padding: 10px;
-    text-align: center;
+nav li {
+    display: inline;
+    padding-right: 75px;
+    
 }
