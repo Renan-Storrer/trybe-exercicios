@@ -1,3 +1,8 @@
+h3 {
+    font-family: monospace;
+    font-style: italic;
+}
+
 div:hover {
     border: 5px solid gray;
 }
