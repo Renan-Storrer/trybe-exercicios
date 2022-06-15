@@ -1,4 +1,19 @@
+#conteudo {
+    margin-top: 650px;
+}
 
+#titulo {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+ }
+
+#stomatopoda {
+    position: absolute;
+    z-index: 1;
+}
 nav{
     color: white;
     background-color: rgb(24, 0, 161);
