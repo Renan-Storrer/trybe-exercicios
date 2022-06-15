@@ -1,0 +1,41 @@
+#conteudo {
+    margin-top: 650px;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+ }
+
+#stomatopoda {
+    position: absolute;
+    z-index: 1;
+}
+nav{
+    color: white;
+    background-color: rgb(24, 0, 161);
+    font-family: monospace;
+    font-size: large;
+    padding: 1px;
+    margin: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 25px;
+    
+}
+
+#habbitat-stomatopoda{
+    width: 300px;
+}
+
+#description {
+    text-align: left;
+    width: 50%;
+}
