@@ -11,3 +11,8 @@ div:nth-of-type(2) {
     background-color: blue;
     color: white;
 }
+
+div:nth-of-type(3) {
+    background-color: purple;
+    color: white;
+}
