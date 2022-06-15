@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+
+#nav {
+   
+    font-size: 20px;
+    font-family: monospace;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
