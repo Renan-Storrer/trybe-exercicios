@@ -18,6 +18,11 @@ div:nth-of-type(3) {
 }
 
 div:nth-of-type(4) {
-    background-color: rgb(255, 9, 255);
+    background-color: rgb(88, 25, 88);
+    color: white;
+}
+
+div:nth-of-type(5) {
+    background-color: rgb(248, 0, 248);
     color: white;
 }
