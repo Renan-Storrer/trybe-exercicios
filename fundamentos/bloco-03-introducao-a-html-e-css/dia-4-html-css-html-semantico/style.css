@@ -1,18 +1,9 @@
-#conteudo {
-    margin-top: 650px;
+#header {
+    background-image:;
 }
 
-#titulo {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    position: absolute;
-    z-index: 2;
- }
-
-#stomatopoda {
-    position: absolute;
-    z-index: 1;
+#conteudo {
+    margin-top: 650px;
 }
 nav{
     color: white;
