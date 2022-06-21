@@ -14,10 +14,10 @@ console.log('Módulo: ' + (a % b));
 const c = 5;
 const d = 10;
 
-if (c > d) {
-    console.log(c)
+if (c < d) {
+    console.log(d + " é maior que " + c)
 } else {
-    console.log(d)
+    console.log(c + " é maior que " + d)
 }
 
 // exercicio 3
