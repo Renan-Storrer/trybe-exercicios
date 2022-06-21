@@ -49,11 +49,19 @@ if (h < 0) {
 // exercicio 5
 
 const t1 = 45;
-const t2 = 45;
+const t2 = -45;
 const t3 = 90;
 
-if (t1 + t2 + t3 === 180) {
+let somaDosAngulos = t1 + t2 + t3;
+
+let todosAngulosPositivo = t1 > 0 && t2 > 0 && t3 > 0;
+
+if(todosAngulosPositivo) {
+    if (somaDosAngulos === 180) {
     console.log (true);
-} else {
+    } else {
     console.log (false);
-}
+    }
+} else {
+    console.log('ERRO - angulo(s) inválido(s)');
+} 
