@@ -30,7 +30,7 @@ if (e > f && e > g) {
     console.log(e)
 } else if (f > g && f > e) {
     console.log(f)
-} else if (g > e && g > f){
+} else if (g > e && g > f) {
     console.log(g)
 }
 
@@ -56,12 +56,36 @@ let somaDosAngulos = t1 + t2 + t3;
 
 let todosAngulosPositivo = t1 > 0 && t2 > 0 && t3 > 0;
 
-if(todosAngulosPositivo) {
+if (todosAngulosPositivo) {
     if (somaDosAngulos === 180) {
-    console.log (true);
+        console.log(true);
     } else {
-    console.log (false);
+        console.log(false);
     }
 } else {
     console.log('ERRO - angulo(s) inválido(s)');
 } 
+
+//exercicio 6
+
+const peca = 'peão';
+
+switch (peca.toLowerCase) {
+    case 'rei':
+        console.log('Rei-> uma casa para qualquer lado');
+        break;
+    case 'rainha':
+        console.log('Rainha -> qualquer lado, quantas casas quiser');
+        break;
+    case 'peão':
+        console.log('Peão -> um casa para frente, no primeiro movimento poderá ser duas casa para frente');
+        break;
+    case 'torre':
+        console.log('Torre -> horizontal e vertical');
+        break;
+    case 'cavalo':
+        console.log('Cavalo -> "L", pode pular sobre as casas');
+        break;
+    default:
+        console.log('ERRO: peça inválida!');
+}
