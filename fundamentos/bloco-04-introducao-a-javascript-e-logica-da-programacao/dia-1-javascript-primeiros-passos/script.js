@@ -45,3 +45,15 @@ if (h < 0) {
 } else if (h > 0) {
     console.log("positive");
 }
+
+// exercicio 5
+
+const t1 = 45;
+const t2 = 45;
+const t3 = 90;
+
+if (t1 + t2 + t3 === 180) {
+    console.log (true);
+} else {
+    console.log (false);
+}
