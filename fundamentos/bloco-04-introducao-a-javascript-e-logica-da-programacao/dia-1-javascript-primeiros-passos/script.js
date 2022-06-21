@@ -89,3 +89,23 @@ switch (peca.toLowerCase) {
     default:
         console.log('ERRO: peça inválida!');
 }
+
+// exercicio 7
+
+let notaDaProva = 40;
+
+if (notaDaProva < 0 || notaDaProva > 100) {
+    console.log('ERRO: potuação inválida');
+} else if (notaDaProva >= 90) {
+    console.log('Você tirou a nota A');
+} else if (notaDaProva >= 80) {
+    console.log('Você tirou a nota B');
+} else if (notaDaProva >= 70) {
+    console.log('Você tirou a nota C');
+} else if (notaDaProva >=60) {
+    console.log('Você tirou a nota D');
+} else if (notaDaProva >= 50) {
+    console.log('Você tirou a nota E');
+} else {
+    console.log('Você tirou a nota F');
+}
