@@ -33,3 +33,15 @@ if (e > f && e > g) {
 } else if (g > e && g > f){
     console.log(g)
 }
+
+// exercicio 4
+
+const h = -5;
+
+if (h < 0) {
+    console.log("negative");
+} else if (h === 0) {
+    console.log(0)
+} else if (h > 0) {
+    console.log("positive");
+}
