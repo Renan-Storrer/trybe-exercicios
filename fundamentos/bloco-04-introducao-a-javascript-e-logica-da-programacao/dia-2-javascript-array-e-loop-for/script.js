@@ -16,3 +16,35 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 
 console.log(resultado);
+
+// exercicio 3 
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let somaTotal = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    somaTotal += numbers[index];
+}
+
+let media = somaTotal / (numbers.length + 1)
+
+console.log(media);
+
+// exercico 4 
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let somaTotal = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    somaTotal += numbers[index];
+}
+
+let media = somaTotal / (numbers.length + 1)
+
+if (media > 20) {
+    console.log("Valor maior que 20");
+} else {
+    console.log("Valor menor que 20");
+}
+
+console.log(media);
