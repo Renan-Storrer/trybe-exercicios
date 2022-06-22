@@ -148,3 +148,16 @@ if ((n7 % 2 !== 0) || (n8 % 2 !== 0) || (n9 % 2 !== 0)) {
 }
 
 console.log(numeroImpar);
+
+// exercicio 10
+
+const custo = 10;
+const valor = 50;
+
+if (custo >= 0 && valor >= 0) {
+    const custoTotal = custo * 1.2;
+    const lucro = (valor - custoTotal) * 1000;
+    console.log(lucro);
+} else {
+    console.log("ERRO: valores negativos!");
+}
