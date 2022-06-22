@@ -121,3 +121,16 @@ if ((n1 % 2 === 0) || (n2 % 2 === 0) || (n3 % 2 === 0)) {
 } else {
     console.log("false")
 }
+
+// exercicio 8 (modo correto de fazer)
+
+const n4 = 1;
+const n5 = 5;
+const n6 = 10;
+
+let numeroPar = false;
+
+if ((n4 % 2 === 0) || (n5 % 2 === 0) || (n6 % 2 === 0)) {
+    numeroPar = true ;
+}
+console.log(numeroPar);
