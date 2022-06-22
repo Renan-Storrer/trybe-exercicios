@@ -134,3 +134,17 @@ if ((n4 % 2 === 0) || (n5 % 2 === 0) || (n6 % 2 === 0)) {
     numeroPar = true ;
 }
 console.log(numeroPar);
+
+// exercicio 9 
+
+const n7 = 2;
+const n8 = 4;
+const n9 = 7;
+
+let numeroImpar = false;
+
+if ((n7 % 2 !== 0) || (n8 % 2 !== 0) || (n9 % 2 !== 0)) {
+    numeroImpar = true ;
+}
+
+console.log(numeroImpar);
