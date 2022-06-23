@@ -39,3 +39,21 @@ for (let index2 = 0; index2 < array.length; index2 +=1) {
 
 console.log(maiorPalavra);
 console.log(menorPalavra);
+
+// exercicio 4
+
+let numeroPrimoMaior = 0;
+
+for (let numero = 2; numero <= 50; numero += 1) {
+  let numeroPrimo = true;
+  for (let divisor = 2; divisor < numero; divisor += 1) {
+    if (numero % divisor === 0) {
+      numeroPrimo = false;
+    }
+  }
+  if (numeroPrimo === true ) {
+    numeroPrimoMaior = numero;
+  }
+}
+
+console.log(numeroPrimoMaior);
