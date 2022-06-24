@@ -77,3 +77,38 @@ if (numerosImpares === 0) {
 } else {
     console.log(numerosImpares)
 }
+
+// exercicio 7
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorValor = 500;
+
+for (let index = 0; index < numbers.length; index +=1) {
+    if (numbers[index] < menorValor) {
+        menorValor = numbers[index];
+    }
+}
+
+console.log(menorValor);
+
+// exercicio 8
+
+let numbers = [];
+
+for (let index = 1; index <= 25; index +=1) {
+    numbers.push(index)
+}
+
+console.log(numbers)
+
+// exercicio 9
+
+let numbers = [];
+
+for (let index = 1; index <= 25; index +=1) {
+    numbers.push(index)
+}
+
+for (let index2 = 0; index2 < numbers.length; index2 +=1) {
+    console.log(numbers[index2] / 2);
+}
