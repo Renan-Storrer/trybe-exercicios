@@ -10,5 +10,9 @@ info.recorrente = 'sim'
 // console.log(info)
 
 for (index in info) {
-    console.log(index)
+    // console.log(index)
+}
+
+for (index in info) {
+    console.log(info[index])
 }
