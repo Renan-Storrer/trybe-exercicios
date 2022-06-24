@@ -17,8 +17,6 @@ for (index in info) {
     // console.log(info[index])
 }
 
-// ---------------------------------------------------------------------------
-
 let info2 = {
     personagem: 'Tio Patinhas',
     origem: 'Christmas on Bear Mountain, Dell’s Four Color Comics #178',
@@ -32,8 +30,25 @@ for (propriedades in info) {
         info[propriedades] === 'sim' &&
         info2[propriedades] === 'sim'
     ) {
-        console.log('Ambos reccorentes')
+        // console.log('Ambos reccorentes')
     } else {
-        console.log(info[propriedades] + ' e ' + info2[propriedades] );
+        // console.log(info[propriedades] + ' e ' + info2[propriedades] );
     }
 }
+
+// --------------- // ----------------- // ----------------- // -----------------
+
+let leitor = {
+    nome: 'Julia',
+    sobrenome: 'Pessoa',
+    idade: 21,
+    livrosFavoritos: [
+      {
+        titulo: 'O Pior Dia de Todos',
+        autor: 'Daniela Kopsch',
+        editora: 'Tordesilhas',
+      },
+    ],
+  };
+
+  console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + '"' + leitor.livrosFavoritos[0].titulo + '"') ; 
