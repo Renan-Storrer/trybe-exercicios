@@ -16,7 +16,6 @@ function verificaPalindrome(string) {
         return false;
     }
 }
-
 // console.log(verificaPalindrome('arara'));
 // console.log(verificaPalindrome('desenvolvimento'));
 
@@ -25,24 +24,37 @@ function verificaPalindrome(string) {
 function indiceDoMaior(arrayDeNumeros) {
     let indiceDoMaiorNumero = 0;
     for (let index in arrayDeNumeros) {
-      if (arrayDeNumeros[indiceDoMaiorNumero] < arrayDeNumeros[index]) {
-        indiceDoMaiorNumero = index;
-      }
+        if (arrayDeNumeros[indiceDoMaiorNumero] < arrayDeNumeros[index]) {
+            indiceDoMaiorNumero = index;
+        }
     }
     return indiceDoMaiorNumero;
-  }
-  
+}
 //   console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
 
 // exercicio 3 
+
 function indiceDoMenor(numeros) {
     let indiceDoMenorNumero = 0;
-    for(let index in numeros) {
-        if(numeros[indiceDoMenorNumero] > numeros[index]) {
+    for (let index in numeros) {
+        if (numeros[indiceDoMenorNumero] > numeros[index]) {
             indiceDoMenorNumero = index
         }
     }
     return indiceDoMenorNumero;
 }
+// console.log(indiceDoMenor([2, 4, 6, 7, -10, 0, -3]));
 
-console.log(indiceDoMenor([2, 4, 6, 7, -10, 0, -3]));
+// exercicio 4
+
+function nomeMaior(nomes) {
+    let nomeMaior = nomes[0];
+    for (let index in nomes) {
+        if (nomeMaior.length < nomes[index].length ) {
+            nomeMaior = nomes[index]
+        }
+    }
+    return nomeMaior
+}
+
+console.log(nomeMaior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
