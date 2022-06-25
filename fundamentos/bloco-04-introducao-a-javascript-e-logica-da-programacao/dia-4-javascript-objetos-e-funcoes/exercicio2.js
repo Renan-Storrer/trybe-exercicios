@@ -32,4 +32,17 @@ function indiceDoMaior(arrayDeNumeros) {
     return indiceDoMaiorNumero;
   }
   
-  console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
+//   console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
+
+// exercicio 3 
+function indiceDoMenor(numeros) {
+    let indiceDoMenorNumero = 0;
+    for(let index in numeros) {
+        if(numeros[indiceDoMenorNumero] > numeros[index]) {
+            indiceDoMenorNumero = index
+        }
+    }
+    return indiceDoMenorNumero;
+}
+
+console.log(indiceDoMenor([2, 4, 6, 7, -10, 0, -3]));
