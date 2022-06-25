@@ -19,6 +19,8 @@ function verificaPalindrome(string) {
 // console.log(verificaPalindrome('arara'));
 // console.log(verificaPalindrome('desenvolvimento'));
 
+//---------------------------------------------------------------------------------
+
 // exercicio 2
 
 function indiceDoMaior(arrayDeNumeros) {
@@ -30,7 +32,10 @@ function indiceDoMaior(arrayDeNumeros) {
     }
     return indiceDoMaiorNumero;
 }
+
 //   console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
+
+//---------------------------------------------------------------------------------
 
 // exercicio 3 
 
@@ -43,7 +48,10 @@ function indiceDoMenor(numeros) {
     }
     return indiceDoMenorNumero;
 }
+
 // console.log(indiceDoMenor([2, 4, 6, 7, -10, 0, -3]));
+
+//---------------------------------------------------------------------------------
 
 // exercicio 4
 
@@ -56,8 +64,10 @@ function nomeMaior(nomes) {
     }
     return nomeMaior
 }
+
 // console.log(nomeMaior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
+//-------------------------------------------------------------------------------------
 // exercicio 5 
 
 function numeroMaisRepetido(numeros) {
@@ -80,4 +90,18 @@ function numeroMaisRepetido(numeros) {
     return numeros[indexNumeroRepetido];
 }
 
-console.log(numeroMaisRepetido([2, 5, 3, 2, 5, 8, 2, 3, 5]));
+// console.log(numeroMaisRepetido([2, 5, 3, 2, 5, 8, 2, 3, 5]));
+
+//---------------------------------------------------------------------------------
+
+// exercicio 6 
+
+function somatorio (numero) {
+    let total = 0;
+    for (let index = 1; index <= numero; index +=1) {
+        total = total + index;
+    }
+    return total;
+}
+
+console.log(somatorio(3));
