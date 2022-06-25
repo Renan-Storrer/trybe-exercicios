@@ -22,10 +22,10 @@ function verificaPalindrome(string) {
 
 // exercicio 2
 
-function indiceDoMaior(numeros) {
+function indiceDoMaior(arrayDeNumeros) {
     let indiceDoMaiorNumero = 0;
-    for (let index in numeros) {
-      if (numeros[indiceDoMaiorNumero] < numeros[index]) {
+    for (let index in arrayDeNumeros) {
+      if (arrayDeNumeros[indiceDoMaiorNumero] < arrayDeNumeros[index]) {
         indiceDoMaiorNumero = index;
       }
     }
