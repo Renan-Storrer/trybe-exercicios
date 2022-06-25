@@ -50,11 +50,34 @@ function indiceDoMenor(numeros) {
 function nomeMaior(nomes) {
     let nomeMaior = nomes[0];
     for (let index in nomes) {
-        if (nomeMaior.length < nomes[index].length ) {
+        if (nomeMaior.length < nomes[index].length) {
             nomeMaior = nomes[index]
         }
     }
     return nomeMaior
 }
+// console.log(nomeMaior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
-console.log(nomeMaior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+// exercicio 5 
+
+function numeroMaisRepetido(numeros) {
+    let repetido = 0;
+    let numero = 0;
+    let indexNumeroRepetido = 0;
+    for (let index in numeros) {
+        let verificaNumero = numeros[index];
+        for (let index2 in numeros) {
+            if (verificaNumero === numeros[index2]) {
+                numero = numero + 1;
+            }
+        }
+        if (numero > repetido) {
+            repetido = numero;
+            indexNumeroRepetido = index;
+        }
+        numero = 0;
+    }
+    return numeros[indexNumeroRepetido];
+}
+
+console.log(numeroMaisRepetido([2, 5, 3, 2, 5, 8, 2, 3, 5]));
