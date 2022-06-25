@@ -96,12 +96,30 @@ function numeroMaisRepetido(numeros) {
 
 // exercicio 6 
 
-function somatorio (numero) {
+function somatorio(numero) {
     let total = 0;
-    for (let index = 1; index <= numero; index +=1) {
+    for (let index = 1; index <= numero; index += 1) {
         total = total + index;
     }
     return total;
 }
 
-console.log(somatorio(3));
+// console.log(somatorio(3));
+
+//---------------------------------------------------------------------------------
+
+// exercicio 7
+
+function endingWord(word, ending) {
+    word = word.split('');
+    ending = ending.split('');
+    controle = true;
+    for (let index = 0; index < ending.length; index += 1) {
+        if (word[word.length - ending.length + index] !== ending[index]) {
+            controle = false;
+        }
+    }
+    return controle;
+}
+
+console.log(endingWord('trybe', 'be'));
