@@ -2,7 +2,7 @@
 
 function mudarTexto () {
     let paragrafo = document.getElementsByTagName('p')[1];
-    paragrafo.innerText = 'Estar trabalhando em uma empresa que eu goste'
+    paragrafo.innerText = 'Estar trabalhando em uma empresa que eu goste!'
 }
 mudarTexto();
 
@@ -28,8 +28,16 @@ mudarBackGround2 ();
 
 function corrigeH1 () {
     let tituloTexto = document.getElementsByTagName('h1')[0];
-    console.log(tituloTexto);
     tituloTexto.innerText = "Exercicio 5.1 - JavaScript";
 }
 
 corrigeH1 ();
+
+// exercicio 5
+
+function letrasMaiusculas () {
+    let modificap = document.getElementsByTagName('p')[0];
+    modificap.innerText = modificap.innerText.toUpperCase();
+}
+
+letrasMaiusculas ();
