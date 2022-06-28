@@ -13,11 +13,20 @@ function mudarBackGround () {
     quadradoAmarelo.style.background = 'rgb(76,164,109)';
 }
 
+// exercicio 3
+
 mudarBackGround();
 
 function mudarBackGround2 () {
-    let quadradoVermelho = document.getElementsByClassName('center-content');
+    let quadradoVermelho = document.getElementsByClassName('center-content')[0];
     quadradoVermelho.style.background = 'white'
 }
 
-mudarBackGround2
+mudarBackGround2 ();
+
+// exercicio 4
+
+function corrigeH1 () {
+    let tituloTexto = document.getElementsByClassName('tittle')[0];
+    tituloTexto
+}
