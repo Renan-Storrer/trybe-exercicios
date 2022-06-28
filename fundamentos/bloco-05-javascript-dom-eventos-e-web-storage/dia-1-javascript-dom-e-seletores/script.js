@@ -27,6 +27,9 @@ mudarBackGround2 ();
 // exercicio 4
 
 function corrigeH1 () {
-    let tituloTexto = document.getElementsByClassName('tittle')[0];
-    tituloTexto
+    let tituloTexto = document.getElementsByTagName('h1')[0];
+    console.log(tituloTexto);
+    tituloTexto.innerText = "Exercicio 5.1 - JavaScript";
 }
+
+corrigeH1 ();
