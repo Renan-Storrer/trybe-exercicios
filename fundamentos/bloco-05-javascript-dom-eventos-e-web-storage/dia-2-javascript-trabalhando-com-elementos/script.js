@@ -34,7 +34,14 @@ let sectionRigth = document.createElement('sextion')
 sectionRigth.className = 'rigth-contente';
 main.appendChild(sectionRigth)
 
+// exercicio 7
+
 let imagem = document.createElement('img')
 imagem.className = 'small-image'
 imagem.src = 'https://picsum.photos/200'
 section.appendChild(imagem)
+
+// exercicio 8
+
+let listOrdenada =document.createElement('ol')
+let itensList = document.createElement('li')
