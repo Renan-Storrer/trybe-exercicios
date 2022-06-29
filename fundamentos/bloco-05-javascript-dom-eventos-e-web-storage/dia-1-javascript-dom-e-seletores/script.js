@@ -43,3 +43,16 @@ function letrasMaiusculas() {
 }
 
 letrasMaiusculas();
+
+// exercicio 6
+
+function conteudoParagrafo () {
+    let conteudosParagrafo = document.getElementsByTagName('p')
+    console.log(conteudosParagrafo)
+    for (let index = 0; index < conteudosParagrafo.length; index += 1) {
+        console.log(conteudosParagrafo[index]);
+    }
+
+};
+
+conteudoParagrafo ();
