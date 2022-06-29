@@ -12,7 +12,12 @@ document.body.appendChild(main)
 
 // exercicio 3
 
-
 let section = document.createElement('section')
 section.className = 'center-content'
-document.main.appendChild(section)
+main.appendChild(section)
+
+// exercicio 4
+
+let p = document.createElement('p')
+section.appendChild(p)
+p.innerText = 'TEXTO TEXTO TEXTO TEXTO TEXTO'
