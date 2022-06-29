@@ -47,10 +47,9 @@ letrasMaiusculas();
 // exercicio 6
 
 function conteudoParagrafo () {
-    let conteudosParagrafo = document.getElementsByTagName('p')
-    console.log(conteudosParagrafo)
+    let conteudosParagrafo = document.getElementsByTagName('p');
     for (let index = 0; index < conteudosParagrafo.length; index += 1) {
-        console.log(conteudosParagrafo[index]);
+        console.log(conteudosParagrafo[index].innerText);
     }
 
 };
