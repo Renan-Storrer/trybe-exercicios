@@ -21,3 +21,9 @@ main.appendChild(section)
 let p = document.createElement('p')
 section.appendChild(p)
 p.innerText = 'TEXTO TEXTO TEXTO TEXTO TEXTO'
+
+// exercicio 5
+
+let sectionLeft = document.createElement('sextion')
+sectionLeft.className = 'left-contente';
+main.appendChild(sectionLeft)
