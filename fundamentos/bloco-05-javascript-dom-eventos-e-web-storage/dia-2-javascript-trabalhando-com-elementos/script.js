@@ -11,3 +11,8 @@ main.className = 'main-content'
 document.body.appendChild(main)
 
 // exercicio 3
+
+
+let section = document.createElement('section')
+section.className = 'center-content'
+document.main.appendChild(section)
