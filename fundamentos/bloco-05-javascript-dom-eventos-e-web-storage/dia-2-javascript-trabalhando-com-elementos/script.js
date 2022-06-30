@@ -43,5 +43,11 @@ section.appendChild(imagem)
 
 // exercicio 8
 
-let listOrdenada =document.createElement('ol')
-let itensList = document.createElement('li')
+let listU =document.createElement('ul')
+sectionRigth.appendChild(listU)
+let arrayList = ['Um' ,'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+for (let index = 0; index < arrayList.length; index += 1){
+    let conteudoLi = document.createElement('li')
+    conteudoLi.innerHTML = arrayList[index]
+    listU.appendChild(conteudoLi)
+}
