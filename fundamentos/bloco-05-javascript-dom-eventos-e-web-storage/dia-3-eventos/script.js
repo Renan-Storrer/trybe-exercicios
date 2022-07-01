@@ -54,3 +54,20 @@ button.innerText = 'FERIADOS'
 
 criaBotao();
 
+function mudaFeriados () {
+    let buttonHolliday = document.querySelector('#btn-holiday');
+    let holiday = document.querySelector('.holiday')
+    let backgroundColor = 'rgb(238,238,238)'
+    let color = 'white'
+
+    buttonHolliday.addEventListener('click', function alteraCor () {
+        for (let index = 0; index <  holiday.length; index += 1){
+            if (holiday[index].style.backgroundColor === color) {
+                holiday[index].style.backgroundColor = backgroundColor
+            } else {
+                holiday[index].style.backgroundColor = color
+            }
+        }
+    })
+}
+mudaFeriados()
