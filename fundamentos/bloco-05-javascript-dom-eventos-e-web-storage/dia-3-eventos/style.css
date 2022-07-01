@@ -28,7 +28,7 @@
   }
   
   #days li {
-    color: #777;
+    color: rgb(255, 0, 0);
     display: inline-block;
     font-size:20px;
     margin: 5px 0;

@@ -83,3 +83,23 @@ function criaBotaoSexta() {
 }
 
 criaBotaoSexta();
+
+function displayFriday (arrayFriday) {
+    let buttonFriday = document.querySelector('#btn-friday')
+    let friday = document.querySelectorAll('.friday')
+    let sextou = 'SEXTOU :)'
+
+    buttonFriday.addEventListener('click', function () {
+        for (let index = 0; index < friday.length; index += 1){
+            if (friday[index].innerHTML !== sextou){
+                friday[index].innerHTML = sextou
+            } else {
+                friday[index].innerHTML = arrayFriday[index]
+            }
+        }
+    })
+}
+
+let fridays = [4, 11, 18, 25];
+
+displayFriday(fridays);
