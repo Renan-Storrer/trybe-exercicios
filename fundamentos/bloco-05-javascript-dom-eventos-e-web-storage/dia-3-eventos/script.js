@@ -15,20 +15,20 @@ createDaysOfTheWeek();
 
 let dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
-function createDaysOfTheMonth () {
+function createDaysOfTheMonth() {
     let getDayList = document.querySelector('#days');
-    for (let index = 0; index < dezDaysList.length; index += 1){
+    for (let index = 0; index < dezDaysList.length; index += 1) {
         let day = dezDaysList[index];
         let dayItem = document.createElement('li');
-        if (day === 24 || day === 31){
+        if (day === 24 || day === 31) {
             dayItem.className = 'day holiday'
             dayItem.innerHTML = day;
             getDayList.appendChild(dayItem)
-        } else if (day === 4 || day === 11 || day === 18){
+        } else if (day === 4 || day === 11 || day === 18) {
             dayItem.className = 'day fryday';
             dayItem.innerHTML = day
             getDayList.appendChild(dayItem)
-        } else if (day === 25){
+        } else if (day === 25) {
             dayItem.className = 'day holiday froday'
             dayItem.innerHTML = day
             getDayList.appendChild(dayItem)
@@ -40,28 +40,28 @@ function createDaysOfTheMonth () {
     }
 }
 
-createDaysOfTheMonth ();
+createDaysOfTheMonth();
 
-function criaBotao () {
-let buttonsContainer = document.getElementsByClassName('buttons-container')[0]
-let button = document.createElement('button')
-// console.log(divButton);
-buttonsContainer.appendChild(button)
-button.id = 'btn-holiday'
-button.innerText = 'FERIADOS'
+function criaBotao() {
+    let buttonsContainer = document.getElementsByClassName('buttons-container')[0]
+    let button = document.createElement('button')
+    // console.log(divButton);
+    buttonsContainer.appendChild(button)
+    button.id = 'btn-holiday'
+    button.innerText = 'FERIADOS'
 
 }
 
 criaBotao();
 
-function displayHolidays () {
+function displayHolidays() {
     let buttonHolliday = document.querySelector('#btn-holiday');
     let holiday = document.querySelectorAll('.holiday')
     let backgroundColor = 'rgb(238,238,238)'
     let color = 'white'
 
-    buttonHolliday.addEventListener('click', function alteraCor () {
-        for (let index = 0; index <  holiday.length; index += 1){
+    buttonHolliday.addEventListener('click', function alteraCor() {
+        for (let index = 0; index < holiday.length; index += 1) {
             if (holiday[index].style.backgroundColor === color) {
                 holiday[index].style.backgroundColor = backgroundColor
             } else {
@@ -71,3 +71,15 @@ function displayHolidays () {
     })
 }
 displayHolidays()
+
+function criaBotaoSexta() {
+    let buttonsContainer = document.getElementsByClassName('buttons-container')[0]
+    let button = document.createElement('button')
+    // console.log(divButton);
+    buttonsContainer.appendChild(button)
+    button.id = 'btn-friday'
+    button.innerText = 'SEXTA-FEIRA'
+
+}
+
+criaBotaoSexta();
