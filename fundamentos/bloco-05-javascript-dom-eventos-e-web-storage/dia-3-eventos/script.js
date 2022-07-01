@@ -13,25 +13,31 @@ function createDaysOfTheWeek() {
 
 createDaysOfTheWeek();
 
-function createDays() {
-    let days = [29, 30];
-    for (let index = 0; index <= 31; index += 1) {
-        days.push(index)
+let dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+
+function createDaysOfTheMonth () {
+    let getDayList = document.querySelector('#days');
+    for (let index = 0; index < dezDaysList.length; index += 1){
+        let day = dezDaysList[index];
+        let dayItem = document.createElement('li');
+        if (day === 24 || day === 31){
+            dayItem.className = 'day holiday'
+            dayItem.innerHTML = day;
+            getDayList.appendChild(dayItem)
+        } else if (day === 4 || day === 11 || day === 18){
+            dayItem.className = 'day fryday';
+            dayItem.innerHTML = day
+            getDayList.appendChild(dayItem)
+        } else if (day === 25){
+            dayItem.className = 'day holiday froday'
+            dayItem.innerHTML = day
+            getDayList.appendChild(dayItem)
+        } else {
+            day.className = 'day'
+            dayItem.innerHTML = day
+            getDayList.appendChild(dayItem)
+        }
     }
-    return days
-}
-let dias = createDays();
-// console.log(dias);
-
-let criaLi = document.createElement('li')
-let ul = document.getElementById('days')
-// ul.appendChild(criaLi)
-// console.log(ul);
-
-for (let index2 = 0; index2 < dias.length; index2 += 1){
-    ul.appendChild(criaLi);
-    criaLi.innerHTML = dias[index2]
 }
 
-console.log(ul);
-
+createDaysOfTheMonth ();
