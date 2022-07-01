@@ -54,9 +54,9 @@ button.innerText = 'FERIADOS'
 
 criaBotao();
 
-function mudaFeriados () {
+function displayHolidays () {
     let buttonHolliday = document.querySelector('#btn-holiday');
-    let holiday = document.querySelector('.holiday')
+    let holiday = document.querySelectorAll('.holiday')
     let backgroundColor = 'rgb(238,238,238)'
     let color = 'white'
 
@@ -70,4 +70,4 @@ function mudaFeriados () {
         }
     })
 }
-mudaFeriados()
+displayHolidays()
