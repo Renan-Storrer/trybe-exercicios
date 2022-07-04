@@ -32,8 +32,21 @@ let sectionMainElement = document.getElementById('3')
 sectionMainElement.appendChild(p)
 p.innerText = 'Olá, requisito 4'
 
-let imgSection = document.querySelector('.left-content')
-imgSection.appendChild(img)
+let left = document.getElementsByClassName('left-content')[0]
+left.appendChild(img)
 img.src = 'https://picsum.photos/200'
 img.className = 'small-image'
-console.log(imgSection);
+// console.log(left);
+
+let right = document.querySelector('.right-content')
+let createUl = document.createElement('ul')
+right.appendChild(createUl)
+// console.log(right);
+let ulHTML = document.querySelector('ul')
+// console.log(ulHTML);
+// let li = document.createElement('li')
+// let ul = document.querySelector('ul')
+// let array = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+// ul.appendChild(li).innerText = 'um'
+// ul.appendChild(li).innerText = 'um'
+// console.log(ul);
