@@ -25,20 +25,20 @@
                     required>
                 <div id="emailHelp" class="form-text">(Nunca compartilharemos seu e-mail com mais ninguém.)</div>
             </div>
-            <div>
-                <p>Você é maior de 18 anos ?</p>
+            <div class="mb-3">
+                <p class="m-0">Você é maior de 18 anos ?</p>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="maior" id="sim">
-                    <label class="form-check-label" for="inlineRadio1">sim</label>
+                    <label class="form-check-label form-text" for="inlineRadio1">sim</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline form-text">
                     <input class="form-check-input" type="radio" name="maior" id="nao">
                     <label class="form-check-label" for="inlineRadio1">não</label>
                 </div>
             </div>
             <div>
-                <label for="">Para onde voce gostaria de viajar?
-                    <select name="lugar" id="lugar">
+                <label for="" class="mb-3 mt-" >Para onde voce gostaria de viajar?
+                    <select class="form-select" name="lugar" id="lugar">
                         <option value="Cidade">Cidade</option>
                         <option value="Praia">Praia</option>
                         <option value="Fazenda">Fazenda</option>
@@ -46,30 +46,30 @@
                     </select>
                 </label>
             </div>
-            <div>
-                <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-                <textarea name="sobre" id="textarea1" cols="30" rows="6"></textarea>
+            <div class="form-floating" >
+                <p class="mt-3" >Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+                <textarea class="form-control" name="sobre" id="textarea1" cols="30" rows="6"></textarea>
             </div>
             <div>
-                <label for="">Qual a melhor data para realizar sua viagem
-                    <input type="date" name="" id="">
+                <label for="data" class="me-3" >Qual a melhor data para realizar sua viagem
                 </label>
+                <input type="date" name="" id="data">
             </div>
             <div>
-                <label for="gostaria">
+                <label class="mt-4" for="gostaria">
                     <input type="checkbox" name="" id="gostaria">
                     Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
                 </label>
             </div>
             <div>
-                <label for="concordo">
+                <label class="mb-4 mt-2" for="concordo">
                     <input type="checkbox" name="" id="concordo">
                     Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
                 </label>
             </div>
             <div>
-                <button type="submit">Enviar</button>
-                <button type="reset">Apagar</button>
+                <button class="btn btn-outline-success ms-3 me-5" type="submit">Enviar</button>
+                <button class="btn btn-outline-danger" type="reset">Apagar</button>
             </div>
     </main>
     </form>
