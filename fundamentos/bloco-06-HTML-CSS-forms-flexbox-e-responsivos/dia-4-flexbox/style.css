@@ -12,11 +12,14 @@
   .header-container {
     background-color: #5C687C;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
   }
   
   .logo-container {
+    /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
+    justify-content:left;
     width: 268px;
     /* margin: 0 auto; */
   }
