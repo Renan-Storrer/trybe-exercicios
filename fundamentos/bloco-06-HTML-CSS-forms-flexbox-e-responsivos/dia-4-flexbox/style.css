@@ -12,7 +12,7 @@
   .header-container {
     background-color: #5C687C;
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     justify-content: space-around;
   }
   
@@ -27,6 +27,8 @@
   .menu-container {
     display: flex;
     width: 500px;
+    flex-grow: 1;
+    order: 1;
   }
   
   .menu-container ul {
