@@ -17,10 +17,13 @@
   .logo-container {
     display: flex;
     justify-content: center;
+    width: 268px;
+    /* margin: 0 auto; */
   }
   
   .menu-container {
     display: flex;
+    width: 500px;
   }
   
   .menu-container ul {
