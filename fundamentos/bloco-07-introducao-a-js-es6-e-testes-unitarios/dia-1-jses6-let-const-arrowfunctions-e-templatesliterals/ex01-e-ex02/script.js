@@ -26,3 +26,4 @@ const numberOrder = oddsAndEvens.sort(sortFunction);
 const mensagemFinal = `Os números ${numberOrder} se encontram ordenados de forma crescente!`
 
 console.log(mensagemFinal);
+
