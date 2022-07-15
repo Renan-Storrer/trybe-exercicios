@@ -1,11 +1,20 @@
 const button = document.querySelector('button')
-console.log(button);
 button.addEventListener('click', contador);
+button.addEventListener('click', contM)
 // let contagem = 0;
 
-let contagem = []
+let contagem = 0
 function contador() {
-  contagem.push('1')
-  console.log(contagem.length);
-  // return contagem
+  contagem = contagem + 1
+  // console.log(contagem);
+  return contagem
+}
+// console.log(contagem);
+let pContagem = document.querySelector('#pContagem')
+// console.log(pContagem.innerHTML
+
+function contM () {
+  let contagemMostrada = contagem
+  // console.log(contagemMostrada);
+  pContagem.innerHTML = contagemMostrada
 }

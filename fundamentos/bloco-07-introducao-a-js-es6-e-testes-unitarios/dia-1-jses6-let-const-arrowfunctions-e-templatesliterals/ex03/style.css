@@ -11,7 +11,7 @@ button {
   margin-top: 35px;
   background-color: rgb(250, 21, 21);
   color: white;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 
 #botao {
@@ -27,4 +27,17 @@ button {
 button:hover {
   background-color: rgb(224, 1, 1);
   
+}
+
+#pContagem {
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
 }
