@@ -15,6 +15,6 @@ let pContagem = document.querySelector('#pContagem')
 
 function contM () {
   let contagemMostrada = contagem
-  console.log(contagemMostrada);
+  // console.log(contagemMostrada);
   pContagem.innerHTML = contagemMostrada
 }
