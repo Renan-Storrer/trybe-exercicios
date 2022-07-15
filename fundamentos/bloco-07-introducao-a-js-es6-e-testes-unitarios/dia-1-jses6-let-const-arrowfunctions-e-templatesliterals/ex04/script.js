@@ -15,4 +15,4 @@ function ola (nome) {
   console.log(nomeFinal);
 }
 
-ola('Renan')
+ola('Renan');
