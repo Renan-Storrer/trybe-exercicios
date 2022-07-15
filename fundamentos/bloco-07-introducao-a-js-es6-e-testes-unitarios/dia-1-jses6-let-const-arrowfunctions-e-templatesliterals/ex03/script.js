@@ -3,9 +3,9 @@ console.log(button);
 button.addEventListener('click', contador);
 // let contagem = 0;
 
-let contagem = []
+let contagem = 0
 function contador() {
-  contagem.push('1')
-  console.log(contagem.length);
+  contagem = contagem + 1
+  console.log(contagem);
   // return contagem
 }
