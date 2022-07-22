@@ -23,7 +23,7 @@ const books = [
     id: 3,
     name: 'Fundação',
     genre: 'Ficção Científica',
-    author: {
+    author: {// escreva aqui o seu código
       name: 'Isaac Asimov',
       birthYear: 1920,
     },
@@ -62,5 +62,9 @@ const books = [
 ];
 
 function authorBornIn1947() {
-  // escreva aqui o seu código
+  let book = books.find((book) => book.author.birthYear === 1947)
+  // console.log(book);
+  return book.author.name
 }
+
+console.log(authorBornIn1947());
