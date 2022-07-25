@@ -82,10 +82,51 @@ function formatedBookNames(booksAll) {
   })
 }
 
-console.log(formatedBookNames(books));
+// console.log(formatedBookNames(books));
 
 //-------------------------------------------------------------------------------
 
 // EXERCICIO 2
 
+// const expectedResult = [
+//   {
+//     age: 31,
+//     author: 'Isaac Asimov',
+//   },
+//   {
+//     age: 38,
+//     author: 'H. P. Lovecraft',
+//   },
+//   {
+//     age: 39,
+//     author: 'Stephen King',
+//   },
+//   {
+//     age: 43,
+//     author: 'George R. R. Martin',
+//   },
+//   {
+//     age: 45,
+//     author: 'Frank Herbert',
+//   },
+//   {
+//     age: 62,
+//     author: 'J. R. R. Tolkien',
+//   },
+// ];
 
+function nameAndAge(books) {
+  let a = books.map((book) => {
+    let obj = {
+      age: book.releaseYear - book.author.birthYear,
+      author: book.author.name
+    }
+    return obj
+  })
+  let result = a.sort((a, b) => {
+    return a.age - b.age
+  })
+  return result
+}
+
+console.log(nameAndAge(books));
