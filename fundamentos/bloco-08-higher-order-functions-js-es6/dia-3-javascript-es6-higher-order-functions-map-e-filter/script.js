@@ -259,4 +259,8 @@ function oldBooks(books) {
   })
   return filtred
 }
-console.log(oldBooks(books));
+// console.log(oldBooks(books));
+
+//------------------------------------------------------------------------------
+
+//EXERCICIO 7
