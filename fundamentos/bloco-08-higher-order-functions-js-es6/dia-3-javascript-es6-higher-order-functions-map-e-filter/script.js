@@ -129,12 +129,11 @@ function nameAndAge(books) {
   return result
 }
 
-console.log(nameAndAge(books));
+// console.log(nameAndAge(books));
 
 //-------------------------------------------------------------------
 
-// EXERCICIO 3 
-
+// EXERCICIO 3 return
 // const expectedResult = [
 //   {
 //     id: 1,
@@ -173,4 +172,46 @@ function fantasyOrScienceFiction(books) {
   })
 }
 
-console.log(fantasyOrScienceFiction(books));
+// console.log(fantasyOrScienceFiction(books));
+
+//-------------------------------------------------------------------------------
+
+// EXERCICIO 4
+
+// const expectedResult = [
+//   {
+//     id: 6,
+//     name: 'O Chamado de Cthulhu',
+//     genre: 'Terror',
+//     author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+//     releaseYear: 1928,
+//   },
+//   {
+//     id: 3,
+//     name: 'Fundação',
+//     genre: 'Ficção Científica',
+//     author: { name: 'Isaac Asimov', birthYear: 1920 },
+//     releaseYear: 1951,
+//   },
+//   {
+//     id: 2,
+//     name: 'O Senhor dos Anéis',
+//     genre: 'Fantasia',
+//     author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+//     releaseYear: 1954,
+//   },
+// ];
+
+function oldBooksOrdered(books) {
+  let filtred =  books.filter((book) => {
+    if ((2022 - book.releaseYear) > 60) {
+      return book
+    }
+  })
+  const result = filtred.sort((a, b) => {
+    return a.releaseYear - b.releaseYear
+  })
+  return result
+}
+
+console.log(oldBooksOrdered(books));
