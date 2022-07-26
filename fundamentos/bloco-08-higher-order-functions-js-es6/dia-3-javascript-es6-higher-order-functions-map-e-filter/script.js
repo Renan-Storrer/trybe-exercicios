@@ -214,4 +214,28 @@ function oldBooksOrdered(books) {
   return result
 }
 
-console.log(oldBooksOrdered(books));
+// console.log(oldBooksOrdered(books));
+
+//----------------------------------------------------------------------------
+
+//EXERCICIO 5
+
+// const expectedResult = [
+//   'Frank Herbert',
+//   'George R. R. Martin',
+//   'Isaac Asimov',
+//   'J. R. R. Tolkien',
+// ];
+
+function fantasyOrScienceFictionAuthors(books) {
+  let authors = []
+  let booksFOSF = books.filter((book) => {
+    if (book.genre === 'Fantasia' || book.genre === 'Ficção Científica') {
+      authors.push(book.author.name)
+    }
+  })
+  const result = authors.sort()
+  return result
+}
+
+console.log(fantasyOrScienceFictionAuthors(books));
