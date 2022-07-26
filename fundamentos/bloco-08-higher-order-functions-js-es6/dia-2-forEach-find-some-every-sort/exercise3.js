@@ -62,6 +62,7 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
 const expectedResult = {
   author: {
     birthYear: 1948,
@@ -74,5 +75,5 @@ const expectedResult = {
 };
 
 function getNamedBook() {
-  // escreva seu código aqui
+  
 }
