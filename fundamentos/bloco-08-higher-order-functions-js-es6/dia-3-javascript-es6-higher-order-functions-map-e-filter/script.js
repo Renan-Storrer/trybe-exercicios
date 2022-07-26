@@ -168,7 +168,7 @@ function nameAndAge(books) {
 function fantasyOrScienceFiction(books) {
   return books.filter((book) => {
     if (book.genre === 'Ficção Científica' || book.genre === 'Fantasia')
-    return book
+      return book
   })
 }
 
@@ -203,7 +203,7 @@ function fantasyOrScienceFiction(books) {
 // ];
 
 function oldBooksOrdered(books) {
-  let filtred =  books.filter((book) => {
+  let filtred = books.filter((book) => {
     if ((2022 - book.releaseYear) > 60) {
       return book
     }
@@ -238,4 +238,25 @@ function fantasyOrScienceFictionAuthors(books) {
   return result
 }
 
-console.log(fantasyOrScienceFictionAuthors(books));
+// console.log(fantasyOrScienceFictionAuthors(books));
+
+//-----------------------------------------------------------------------------
+
+// EXERCICIO 6
+
+// const expectedResult = [
+//   'O Senhor dos Anéis',
+//   'Fundação',
+//   'O Chamado de Cthulhu',
+// ];
+
+function oldBooks(books) {
+  let filtred = []
+  books.filter((book) => {
+    if ((2022 - book.releaseYear) >= 60) {
+      filtred.push(book.name)
+    }
+  })
+  return filtred
+}
+console.log(oldBooks(books));
