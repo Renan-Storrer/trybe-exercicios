@@ -45,5 +45,54 @@ const personLikes = (nome) => {
   return `${name} is ${age} years old and likes ${likes.join(', ')}.`
 }
 
-console.log(personLikes(alex)); // 'Alex is 26 years old and likes fly fishing.'
-console.log(personLikes(gunnar)); // 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.'
+// console.log(personLikes(alex)); // 'Alex is 26 years old and likes fly fishing.'
+// console.log(personLikes(gunnar)); // 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.'
+
+// EXERCICIO 4
+
+const people = [
+  {
+    name: 'Nicole',
+    bornIn: 1992,
+    nationality: 'Australian',
+  },
+  {
+    name: 'Harry',
+    bornIn: 2008,
+    nationality: 'Australian',
+  },
+  {
+    name: 'Toby',
+    bornIn: 1901,
+    nationality: 'Australian',
+  },
+  {
+    name: 'Frida',
+    bornIn: 1960,
+    nationality: 'Dannish',
+  },
+  {
+    name: 'Fernando',
+    bornIn: 2001,
+    nationality: 'Brazilian',
+  },
+];
+
+// console.log(people[0].name)
+
+// escreva filterPeople abaixo
+const filterPeople = (pessoas) => {
+  const pessoasFiltredd = pessoas.filter((pessoa) => {
+    let nomes = []
+    if (pessoa.bornIn < 1999) {
+      return pessoa.name
+    }
+  })
+  let nomes = []
+  for(let i = 0; i < pessoasFiltredd.length; i += 1){
+    nomes.push(pessoasFiltredd[i].name)
+  }
+  return nomes
+}
+
+console.log(filterPeople(people));
