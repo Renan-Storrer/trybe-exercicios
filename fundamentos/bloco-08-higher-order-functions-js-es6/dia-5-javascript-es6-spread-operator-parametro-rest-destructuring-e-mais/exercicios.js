@@ -103,10 +103,6 @@ const filterPeople = (pessoas) => {
 
 const myList = [1, 2, 3];
 
-const swap = (list) => {
-  return list.sort((a, b) => {
-    return b - a
-  })
-}
+const swap =([a, b, c]) => [c, b, a]
 
-// console.log(swap(myList));
+console.log(swap(myList));
