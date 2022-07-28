@@ -95,4 +95,97 @@ const filterPeople = (pessoas) => {
   return nomes
 }
 
-console.log(filterPeople(people));
+// console.log(filterPeople(people));
+
+//----------------------------------------------------------------------------
+
+// EXERCICIO 5
+
+const myList = [1, 2, 3];
+
+const swap =([a, b, c]) => [c, b, a]
+
+// console.log(swap(myList));
+
+//-----------------------------------------------------------------------------
+
+// EXERCICIO 6
+
+const palio = ['Palio', 'Fiat', 2019];
+const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
+const chiron = ['Chiron', 'Bugatti', 2016];
+
+// const toObject = (modelo, fabrica, ano) => {
+//   let result = {
+//     modelo: modelo,
+//     fabrica: fabrica,
+//     ano: ano,
+//   }
+//   return result
+// }
+
+const toObject = ([name, brand, year]) => ({ name, brand, year });
+
+// console.log(toObject(palio));
+// console.log(toObject(shelbyCobra));
+// console.log(toObject(chiron));
+
+//------------------------------------------------------------------------------
+
+// EXERCICIO 7
+
+const ships = [
+  {
+    name: 'Titanic',
+    length: 269.1,
+    measurementUnit: 'meters',
+  },
+  {
+    name: 'Queen Mary 2',
+    length: 1132,
+    measurementUnit: 'feet',
+  },
+  {
+    name: 'Yamato',
+    length: 256,
+    measurementUnit: 'meters',
+  },
+];
+
+const shipLength = (object) => {
+  const { name, length, measurementUnit } = object;
+  return `${name} is ${length} ${measurementUnit} long`
+}
+
+// console.log(shipLength(ships[0])); // 'Titanic is 269.1 meters long'
+// console.log(shipLength(ships[1])); // 'Queen Mary 2 is 1132 feet long'
+// console.log(shipLength(ships[2])); // 'Yamato is 256 meters long'
+
+//------------------------------------------------------------------------
+
+// EXERCICIO 8
+
+const greet = (user = 'usuário', saudacao = 'Hi') => (`${saudacao} ${user}!`);
+
+// console.log(greet('John')) // 'Hi John'
+// console.log(greet('John', 'Good morning')) // 'Good morning John'
+// console.log(greet('Isabela', 'Oi')) // 'Oi Isabela'
+
+//--------------------------------------------------------------------------
+
+// EXERCICIO 9
+
+
+const yearSeasons = {
+  spring: ['March', 'April', 'May'],
+  summer: ['June', 'July', 'August'],
+  autumn: ['September', 'October', 'November'],
+  winter: ['December', 'January', 'February'],
+};
+
+const { spring, summer, autumn, winter } = yearSeasons
+let months = [... winter, ...spring, ...summer, ...autumn];
+months.push(months[0])
+months.shift(months[0])
+// console.log(months);
+console.table(months)
