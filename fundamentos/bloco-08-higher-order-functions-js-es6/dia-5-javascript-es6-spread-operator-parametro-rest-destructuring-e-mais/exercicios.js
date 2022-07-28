@@ -95,4 +95,18 @@ const filterPeople = (pessoas) => {
   return nomes
 }
 
-console.log(filterPeople(people));
+// console.log(filterPeople(people));
+
+//----------------------------------------------------------------------------
+
+// EXERCICIO 5
+
+const myList = [1, 2, 3];
+
+const swap = (list) => {
+  return list.sort((a, b) => {
+    return b - a
+  })
+}
+
+// console.log(swap(myList));
