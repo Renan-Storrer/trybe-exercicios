@@ -27,3 +27,9 @@ btnPrevious.addEventListener('click', () => {
 btnNext.addEventListener('click', () => {
   store.dispatch({ type: 'NEXT_COLOR' });
 });
+
+store.subscribe(() => {
+  const { colors, index } = store.getState();
+  document.getElementById('value').innerHTML = colors[index];
+  document.getElementById('container').style.backgroundColor = colors[index];
+});
