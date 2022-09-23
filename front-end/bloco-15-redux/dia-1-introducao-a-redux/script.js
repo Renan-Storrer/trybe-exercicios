@@ -16,3 +16,14 @@ const reducer = (state = INITIAL_STATE, action) => {
 };
 
 const store = Redux.createStore(reducer);
+
+const btnPrevious = document.getElementById('previous');
+const btnNext = document.getElementById('next');
+
+btnPrevious.addEventListener('click', () => {
+  store.dispatch({ type: 'PREVIOUS_COLOR' });
+});
+
+btnNext.addEventListener('click', () => {
+  store.dispatch({ type: 'NEXT_COLOR' });
+});
