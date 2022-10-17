@@ -1,17 +1,21 @@
 // ./components/ColorBox.js
 import React from 'react';
+import ColorsContext from '../context/ColorsContext';
 import '../styles/box.css';
 class ColorBox extends React.Component {
   render() {
-    return(
+    const { nextColor, colors, colorIndex } = this.context;
+    return (
       <button
         type="button"
         className="box"
-        style={ { backgroundColor: 'blue' } }
+        style={ { backgroundColor: colors[colorIndex] } }
+        onClick={ () => nextColor() }
       >
-        Click me to change my color!
+        Change my color!
       </button>
-    )
+    );
   }
 }
+ColorBox.contextType = ColorsContext;
 export default ColorBox;
