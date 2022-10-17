@@ -6,7 +6,7 @@ class Provider extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      colors: ['blue', 'red', 'yellow'],
+      colors: ['blue', 'red', 'yellow', 'green'],
       colorIndex: 0,
     };
     this.nextColor = this.nextColor.bind(this);
