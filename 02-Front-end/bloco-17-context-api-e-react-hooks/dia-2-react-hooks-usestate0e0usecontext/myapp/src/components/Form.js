@@ -1,10 +1,25 @@
-import React, { useState } from 'react';
+// components/Form.js
+import React, { useState, useContext } from 'react';
+import FormContext from '../context/FormContext';
 
 function Form() {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
   const [location, setLocation] = useState('');
   const [module, setModule] = useState();
+
+  const { addData } = useContext(FormContext);
+
+  const handleClick = (event) => {
+    event.preventDefault();
+    const personalInfo = {
+      name,
+      age,
+      location,
+      module,
+    };
+    addData(personalInfo);
+  };
 
   return (
     <form>
@@ -97,10 +112,7 @@ function Form() {
       </fieldset>
       <button
         type="submit"
-        onClick={ (event) => {
-          event.preventDefault();
-          console.log('Click!');
-        } }
+        onClick={ handleClick }
       >
         Enviar
       </button>
