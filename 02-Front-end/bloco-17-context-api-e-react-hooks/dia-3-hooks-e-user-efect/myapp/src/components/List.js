@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 import { READ, UNREAD } from '../constants';
 
-import readIcon from '../icons/read.svg';
-import unreadIcon from '../icons/unread.svg';
+// import readIcon from '../icons/read.svg';
+// import unreadIcon from '../icons/unread.svg';
 
 function List({ messages, setMessageStatus }) {
   return (
@@ -26,14 +26,14 @@ function List({ messages, setMessageStatus }) {
                 title="Marcar como lida"
                 onClick={ () => setMessageStatus(message.id, READ) }
               >
-                <img src={ readIcon } alt="" />
+                {/* <img src={ readIcon } alt="" /> */}
               </button>
               <button
                 type="button"
                 title="Marcar como não lida"
                 onClick={ () => setMessageStatus(message.id, UNREAD) }
               >
-                <img src={ unreadIcon } alt="" />
+                {/* <img src={ unreadIcon } alt="" /> */}
               </button>
             </div>
           </li>
