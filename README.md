@@ -1,1 +1,1 @@
-Exercícios feitos após as aulas ao vivo!
+Exercícios feitos após as aulas ao vivo! Feitos somente por mim
