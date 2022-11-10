@@ -239,7 +239,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## CiÃªncia da ComputaÃ§Ã£o :hourglass_flowing_sand:
 
-##### Bloco 35: IntroduÃ§Ã£o - CiÃªncia da ComputaÃ§Ã£o
+##### Bloco 35: Introdução - Cienncia da Computação
 
 - [ ] 35-1: _Arquitetura de Computadores_
 - [ ] 35-2: _Arquitetura de redes_
