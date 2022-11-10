@@ -8,7 +8,8 @@ class App extends React.Component {
 
     this.handleClick = this.handleClick.bind(this)
     this.state = {
-      numeroDeClicks: 0
+      numeroDeClicks: 0,
+      backgroundColor: 'red'
     }
   }
 
@@ -21,9 +22,25 @@ class App extends React.Component {
 
     console.log(this.state);
   }
+
+  selectColor = () => {
+    this.setState((estadoAnterior, _props) => ({
+      backgroundColor: 'blue'
+
+    }))
+    console.log(this.state)
+  }
+
   render() {
     return (
-      <button className='contador' onClick={this.handleClick}>{this.state.numeroDeClicks}</button>
+      <div>
+        <button
+          className='contador'
+          onClick={this.handleClick}>
+          {this.state.numeroDeClicks}
+        </button>
+        <button onClick={this.selectColor}>Trocar Cor</button>
+      </div>
     )
   }
 }
