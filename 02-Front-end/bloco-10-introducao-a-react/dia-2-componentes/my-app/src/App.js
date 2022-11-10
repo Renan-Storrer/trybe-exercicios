@@ -23,7 +23,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <button onClick={this.handleClick}>{this.state.numeroDeClicks}</button>
+      <button className='contador' onClick={this.handleClick}>{this.state.numeroDeClicks}</button>
     )
   }
 }
