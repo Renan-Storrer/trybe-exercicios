@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contador {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 500px;
+  font-size: 150px;
+  padding: 100px;
+  border-radius: 50%;
+}
