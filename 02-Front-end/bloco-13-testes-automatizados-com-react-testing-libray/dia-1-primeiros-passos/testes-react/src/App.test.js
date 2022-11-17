@@ -13,5 +13,15 @@ test('Verifica se existe um input de email na tela', () => {
   // fazer os testes
   expect(inputEmail).toBeInTheDocument();
   expect(inputEmail.type).toBe("email")
+});
 
-})
+test('Verifica se existe dois botões na tela', () => {
+  // acessar os elementos da tela
+  render(<App />);
+  const buttons = screen.getAllByRole("button");
+
+  // interagir com os elementos, (se for necessario)
+
+  // fazer os testes
+  expect(buttons).toHaveLength(2);
+});
