@@ -5,10 +5,13 @@ import App from './App';
 test('Verifica se existe um input de email na tela', () => {
   // acessar os elementos da tela
   render(<App />);
-  screen.getByLabelText("Email");
+  const inputEmail = screen.getByLabelText("Email");
 
   // interagir com os elementos, (se for necessario)
+  // NESSE CASO NAO FOI PRECISO
 
   // fazer os testes
+  expect(inputEmail).toBeInTheDocument();
+  expect(inputEmail.type).toBe("email")
 
 })
