@@ -25,3 +25,15 @@ test('Verifica se existe dois botões na tela', () => {
   // fazer os testes
   expect(buttons).toHaveLength(2);
 });
+
+test('Verifica se existe o botão de enviar', () => {
+  // acessar os elementos da tela
+  render(<App />);
+  const button = screen.getByTestId("id-send");
+
+  // interagir com os elementos, (se for necessario)
+
+  // fazer os testes
+  expect(button).toBeInTheDocument();
+  expect(button).toHaveValue("Enviar");
+});
