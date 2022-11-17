@@ -4,54 +4,57 @@ import userEvent from "@testing-library/user-event";
 
 import App from './App';
 
-test('Verifica se existe um input de email na tela', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const inputEmail = screen.getByLabelText("Email");
+describe("Tela de inserção de email", () => {
 
-  // interagir com os elementos, (se for necessario)
-  // NESSE CASO NAO FOI PRECISO
+  it('Verifica se existe um input de email na tela', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const inputEmail = screen.getByLabelText("Email");
 
-  // fazer os testes
-  expect(inputEmail).toBeInTheDocument();
-  expect(inputEmail.type).toBe("email")
-});
+    // interagir com os elementos, (se for necessario)
+    // NESSE CASO NAO FOI PRECISO
 
-test('Verifica se existe dois botões na tela', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const buttons = screen.getAllByRole("button");
+    // fazer os testes
+    expect(inputEmail).toBeInTheDocument();
+    expect(inputEmail.type).toBe("email")
+  });
 
-  // interagir com os elementos, (se for necessario)
+  it('Verifica se existe dois botões na tela', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const buttons = screen.getAllByRole("button");
 
-  // fazer os testes
-  expect(buttons).toHaveLength(2);
-});
+    // interagir com os elementos, (se for necessario)
 
-test('Verifica se existe o botão de enviar', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const button = screen.getByTestId("id-send");
+    // fazer os testes
+    expect(buttons).toHaveLength(2);
+  });
 
-  // interagir com os elementos, (se for necessario)
+  it('Verifica se existe o botão de enviar', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const button = screen.getByTestId("id-send");
 
-  // fazer os testes
-  expect(button).toBeInTheDocument();
-  expect(button).toHaveValue("Enviar");
-});
+    // interagir com os elementos, (se for necessario)
 
-test('Verifica se, ao digitar o email e clicar em enviar, o email é renderizado', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const inputEmail = screen.getByLabelText("Email");
-  const button = screen.getByTestId("id-send");
-  const userEmail = screen.getByTestId("id-email-user");
+    // fazer os testes
+    expect(button).toBeInTheDocument();
+    expect(button).toHaveValue("Enviar");
+  });
 
-  // interagir com os elementos, (se for necessario)
-  userEvent.type(inputEmail, "teste@teste.com");
-  userEvent.click(button);
+  it('Verifica se, ao digitar o email e clicar em enviar, o email é renderizado', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const inputEmail = screen.getByLabelText("Email");
+    const button = screen.getByTestId("id-send");
+    const userEmail = screen.getByTestId("id-email-user");
 
-  // fazer os testes
-  expect(inputEmail).toHaveValue("");
-  expect(userEmail).toHaveTextContent("Valor: teste@teste.com")
-});
+    // interagir com os elementos, (se for necessario)
+    userEvent.type(inputEmail, "teste@teste.com");
+    userEvent.click(button);
+
+    // fazer os testes
+    expect(inputEmail).toHaveValue("");
+    expect(userEmail).toHaveTextContent("Valor: teste@teste.com")
+  });
+})
