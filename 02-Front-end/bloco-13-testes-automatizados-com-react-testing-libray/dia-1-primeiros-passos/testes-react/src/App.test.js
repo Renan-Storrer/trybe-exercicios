@@ -2,6 +2,15 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
+// acessar os elementos da tela
+// render()
+
+// interagir com os elementos, (se for necessario)
+// userEvent.
+
+// fazer os testes
+// expect()
+
 import App from './App';
 
 describe("Tela de inserção de email", () => {
