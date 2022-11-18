@@ -37,7 +37,15 @@ describe("Aprendendo sobre mocks", () => {
     expect(somaDoisNumeros).toHaveBeenCalledTimes(4);
   });
 
-  it("Testa se retorna true quando o numero é par e false quando o numero é impar", () => {
+  it("Testa se retorna true quando o numero é par", () => {
 
+    retornaNumeroAleatorio = jest.fn().mockReturnValue(126)
+    expect(divisiveilPorDois()).toBe(true)
+  });
+
+  it("Testa se retorna false quando o numero é ímpar", () => {
+
+    retornaNumeroAleatorio = jest.fn().mockReturnValue(127)
+    expect(divisiveilPorDois()).toBe(false)
   });
 })
