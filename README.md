@@ -107,7 +107,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 14-1: _Primeiros passos_
 - [X] 14-2: _Mocks e Inputs_
-- [ ] 14-3: _Testando React Router_
+- [X] 14-3: _Testando React Router_
 - [ ] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Introdução ao Redux
