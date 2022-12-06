@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetchDog } from './redux/actions';
 
+import './style.css'
+
 class App extends React.Component {
   render() {
     const { isFetching, src, dispatch } = this.props;
