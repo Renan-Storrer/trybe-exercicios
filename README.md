@@ -117,7 +117,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 15-3: _React com Redux - Prática_
 - [X] 15-4: _React com Redux - Parte 2_
 - [X] 15-5: _Testes síncronos com React-Redux_
-- [ ] 15-6: _[Projeto - Tabela com filtros de dados]()_
+- [X] 15-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 16: Projeto React
 
