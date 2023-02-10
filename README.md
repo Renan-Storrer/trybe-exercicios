@@ -101,14 +101,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 13: Metodologias Ágeis
 
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-2: _[Projeto - Frontend Online Store](https://github.com/Renan-Storrer/11-OnlineStore)_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [X] 14-1: _Primeiros passos_
 - [X] 14-2: _Mocks e Inputs_
 - [X] 14-3: _Testando React Router_
-- [X] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-4: _[Projeto - Testes em React](https://github.com/Renan-Storrer/12-TestesEmReact)_
 
 ##### Bloco 15: Introdução ao Redux
 
@@ -117,18 +117,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 15-3: _React com Redux - Prática_
 - [X] 15-4: _React com Redux - Parte 2_
 - [X] 15-5: _Testes síncronos com React-Redux_
-- [X] 15-6: _[Projeto - Tabela com filtros de dados]()_
+- [X] 15-6: _[Projeto - Tabela com filtros de dados](https://github.com/Renan-Storrer/13-TrybeWallet)_
 
 ##### Bloco 16: Projeto React
 
-- [X] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto - Jogo de Trivia](https://github.com/Renan-Storrer/14-Trivia)_
 
 ##### Bloco 17: React & Context API
 
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/Renan-Storrer/15-StarWars-Planet-Search)_
 
 ##### Bloco 18: Projeto Final de Front-end
 
