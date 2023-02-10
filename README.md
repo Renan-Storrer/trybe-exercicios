@@ -76,7 +76,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [X] 9-3: _JavaScript e Testes Assíncronos_
-- [X] 9-4: _[Projeto - Carrinho de Compras]()_
+- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/Renan-Storrer/07-ShoppingCart)_
 
 ## Desenvolvimento Front-end :white_check_mark:
 
@@ -84,19 +84,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 10-1: '_Hello, world!' no React!_
 - [X] 10-2: _Componentes React_
-- [X] 10-3: _[Projeto - Sistema Solar]()_
+- [X] 10-3: _[Projeto - Sistema Solar](https://github.com/Renan-Storrer/08-SolarSystem)_
 
 ##### Bloco 11: React
 
 - [X] 11-1: _Components com estado_
 - [X] 11-2: _Eventos e formulários no React_
-- [X] 11-3: _[Projeto - Tryunfo]()_
+- [X] 11-3: _[Projeto - Tryunfo](https://github.com/Renan-Storrer/09-Tryunfo)_
 
 ##### Bloco 12: React
 
 - [X] 12-1: _Ciclo de vida de componentes em React_
 - [X] 12-2: _React Router_
-- [X] 12-3: _[Projeto - Trybe Tunes]()_
+- [X] 12-3: _[Projeto - Trybe Tunes](https://github.com/Renan-Storrer/10-TrybeTunes)_
 
 ##### Bloco 13: Metodologias Ágeis
 
