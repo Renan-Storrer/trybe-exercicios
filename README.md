@@ -158,12 +158,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [X] 21-4: _[Projeto - One For All]()_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [ ] 22-1: _Node.js: Runtime Assíncrono_
+- [ ] 22-2: _API REST com Express_
+- [ ] 22-3: _Testes de intregração_
+- [ ] 22-4: _Express e Middlewares_
+- [ ] 22-5: _Express e MySQL_
+- [ ] 22-6: _[Projeto - Talker Manager]()_
 
 ##### Bloco 23: Introdução - NoSQL
 
