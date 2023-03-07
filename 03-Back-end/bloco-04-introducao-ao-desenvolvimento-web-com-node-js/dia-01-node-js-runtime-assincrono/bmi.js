@@ -1,28 +1,24 @@
 const readline = require('readline-sync');
 
-// const pesoEmKg = 120;
-// const alturaEmCm = 180;
+function handleImc(peso, altura) {
+  console.log(`peso ${peso}, altura ${altura}`);
 
-// function handleImc(peso, altura) {
-//   console.log(`peso ${peso}, altura ${altura}`);
+  const alturaEmMetros = altura / 100;
+  const alturaAoQuadrado = alturaEmMetros ** 2;
 
-//   const alturaEmMetros = altura / 100;
-//   const alturaAoQuadrado = alturaEmMetros ** 2;
+  const imc = peso / alturaAoQuadrado;
 
-//   const imc = peso / alturaAoQuadrado;
+  return imc;
+}
 
-//   return imc;
-// }
+function main() {
+  const peso = readline.questionFloat('Qual o seu peso? (kg) ');
+  const altura = readline.questionInt('Qual sua altura? (cm) ');
 
-// function main() {
-//   const imc = handleImc(pesoEmKg, alturaEmCm);
+  const imc = handleImc(peso, altura);
 
-//   console.log(`IMC: ${imc.toFixed(2)}`);
-// }
+  console.log(`IMC: ${imc.toFixed(2)}`);
+}
 
-// main();
+main();
 
-const weight = readline.questionInt('Qual o seu peso? (kg) ');
-const height = readline.questionInt('Qual sua altura? (cm) ');
-
-const bmi = handleBMI(weight, height);
