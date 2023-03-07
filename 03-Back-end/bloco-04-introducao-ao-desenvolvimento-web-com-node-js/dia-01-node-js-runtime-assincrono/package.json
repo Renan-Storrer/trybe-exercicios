@@ -1,13 +1,13 @@
 {
-  "name": "dia-01-node-js-runtime-assincrono",
+  "name": "my-scripts",
   "version": "1.0.0",
   "description": "Calculador IMC",
-  "main": "index.js",
+  "main": "bmi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Renan Storrer",
   "license": "ISC"
 }
