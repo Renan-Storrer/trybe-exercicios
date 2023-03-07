@@ -1,0 +1,13 @@
+{
+  "name": "dia-01-node-js-runtime-assincrono",
+  "version": "1.0.0",
+  "description": "Calculador IMC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
