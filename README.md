@@ -164,7 +164,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 22-2: _API REST com Express_
 - [X] 22-3: _Testes de intregração_
 - [X] 22-4: _Express e Middlewares_
-- [ ] 22-5: _Express e MySQL_
+- [X] 22-5: _Express e MySQL_
 - [ ] 22-6: _[Projeto - Talker Manager]()_
 
 ##### Bloco 23: Introdução - NoSQL
