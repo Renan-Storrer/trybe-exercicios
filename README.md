@@ -170,7 +170,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 23: Arquitetura de Software: MSC
 
 - [X] 23-1: _Camada Model_
-- [ ] 23-2: _Camada Service_
+- [X] 23-2: _Camada Service_
 - [ ] 23-3: _Camada Service_
 - [ ] 23-4: _[Projeto - Store Manager]()_
 
