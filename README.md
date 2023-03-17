@@ -167,11 +167,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 22-5: _Express e MySQL_
 - [X] 22-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 23: Introdução - NoSQL
+##### Bloco 23: Arquitetura de Software: MSC
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [X] 23-1: _Camada Model_
+- [ ] 23-2: _Camada Service_
+- [ ] 23-3: _Camada Service_
+- [ ] 23-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Updates
 
