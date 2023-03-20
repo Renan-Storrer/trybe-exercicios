@@ -171,7 +171,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 23-1: _Camada Model_
 - [X] 23-2: _Camada Service_
-- [ ] 23-3: _Camada Service_
+- [X] 23-3: _Camada Controller_
 - [ ] 23-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Updates
