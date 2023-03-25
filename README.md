@@ -174,12 +174,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 23-3: _Camada Controller_
 - [ ] 23-4: _[Projeto - Store Manager]()_
 
-##### Bloco 24: Updates
+##### Bloco 24: NODE.JS: ORM e Autenticação
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [ ] 24-1: _Interface de aplicação com banco de dados_
+- [ ] 24-2: _Associations 1:1 e 1:N_
+- [ ] 24-3: _Associations N:N e Transactions_
+- [ ] 24-3: _JSON Web Token_
+- [ ] 24-4: _[Projeto - API de Blogs]()_
 
 ##### Bloco 25: Aggregation Framework
 
