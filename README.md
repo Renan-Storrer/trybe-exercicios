@@ -172,7 +172,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 23-1: _Camada Model_
 - [X] 23-2: _Camada Service_
 - [X] 23-3: _Camada Controller_
-- [X] 23-4: _[Projeto - Store Manager]()_
+- [X] 23-4: _[Projeto - Store Manager](https://github.com/Renan-Storrer/21-StoreManager)_
 
 ##### Bloco 24: NODE.JS: ORM e Autenticação
 
