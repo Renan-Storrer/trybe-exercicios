@@ -182,7 +182,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 24-3: _JSON Web Token_
 - [ ] 24-4: _[Projeto - API de Blogs]()_
 
-##### Bloc 25: Masterclass: Implantação de Aplicação ma Nuvem
+##### Bloc 25: Masterclass: Implantação de Aplicação na Nuvem
 
 - [ ] 25-1: _Infraestrutura: Deploy com Railway_
 
