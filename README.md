@@ -182,11 +182,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 24-3: _JSON Web Token_
 - [ ] 24-4: _[Projeto - API de Blogs]()_
 
-##### Bloco 25: Aggregation Framework
+##### Bloc 25: Masterclass: Implantação de Aplicação ma Nuvem
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [ ] 25-1: _Infraestrutura: Deploy com Railway_
 
 ##### Bloco 26: Intro - NodeJS
 
