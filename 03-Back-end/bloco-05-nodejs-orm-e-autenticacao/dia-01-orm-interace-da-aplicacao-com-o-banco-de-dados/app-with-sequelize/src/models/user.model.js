@@ -9,6 +9,7 @@ const UserModel = (sequelize, DataTypes) => {
     const sara = await User.create({
       fullName: 'Sara Silva Santos',
       email: 'sara.ss@trybe.com',
+      phoneNum: DataTypes.STRING,
     });
 
     console.log(sara.fullName); 
