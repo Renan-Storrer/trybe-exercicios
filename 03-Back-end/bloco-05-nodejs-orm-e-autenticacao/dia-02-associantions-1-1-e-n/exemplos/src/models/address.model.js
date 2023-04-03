@@ -1,3 +1,5 @@
+// src/models/address.model.js
+
 module.exports = (sequelize, DataTypes) => {
   const Address = sequelize.define('Address', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
