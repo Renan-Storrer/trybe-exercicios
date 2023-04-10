@@ -180,7 +180,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 24-2: _Associations 1:1 e 1:N_
 - [X] 24-3: _Associations N:N e Transactions_
 - [X] 24-3: _JSON Web Token_
-- [ ] 24-4: _[Projeto - API de Blogs]()_
+- [X] 24-4: _[Projeto - API de Blogs]()_
 
 ##### Bloc 25: Masterclass: Implantação de Aplicação na Nuvem
 
