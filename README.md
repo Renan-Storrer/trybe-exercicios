@@ -221,9 +221,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
 - [ ] 30-3: _[Projeto - Car Shop]()_
 
-##### Bloco 31: Projeto
+##### Bloco 31: Projeto App de Delivery
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 31-1: _[Projeto - App de Delivery]()_
 
 ##### Bloco 32: Arquitetura de Software
 
