@@ -193,10 +193,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 26-3: _Express com TypeScript_
 - [ ] 26-4: _[Projeto - Trybesmith]()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: Programação orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Composição_
 - [ ] 27-3: _[Projeto - Cookmaster]()_
 
 ##### Bloco 28: NodeJS
