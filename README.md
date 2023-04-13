@@ -200,17 +200,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 27-3: _Polimorfimo_
 - [ ] 27-4: _SOLID - introdução S, O e D_
 - [ ] 27-5: _SOLID Principios L e I_
-- [ ] 27-3: _[Projeto - Trybers and Dragons]()_
+- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 28-3: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 29-1: _MongoDB - introdução_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates simples_
+- [ ] 29-5: _Updates Complexos - arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 
 ##### Bloco 30: IntroduÃ§Ã£o - Deploy
 
