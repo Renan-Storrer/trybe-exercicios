@@ -215,11 +215,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 29-5: _Updates Complexos - arrays_
 - [ ] 29-6: _[Projeto - Commerce]()_
 
-##### Bloco 30: IntroduÃ§Ã£o - Deploy
+##### Bloco 30: APIs OO e NoSQL
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [ ] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto
 
