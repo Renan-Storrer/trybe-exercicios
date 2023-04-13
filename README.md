@@ -202,11 +202,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 27-5: _SOLID Principios L e I_
 - [ ] 27-3: _[Projeto - Trybers and Dragons]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [ ] 28-3: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ##### Bloco 29: NodeJS
 
