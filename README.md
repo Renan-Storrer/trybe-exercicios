@@ -184,7 +184,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloc 25: Masterclass: Implantação de Aplicação na Nuvem
 
-- [ ] 25-1: _Infraestrutura: Deploy com Railway_
+- [X] 25-1: _Infraestrutura: Deploy com Railway_
 
 ##### Bloco 26: Introdução a TypeScript
 
