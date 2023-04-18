@@ -2,7 +2,7 @@ export function getSquareArea(side: number): number {
   return side ** 2
 };
 
-export function getRetangleArea(base: number, height: number): number {
+export function getRectangleArea(base: number, height: number): number {
   return base * height;
 };
 
