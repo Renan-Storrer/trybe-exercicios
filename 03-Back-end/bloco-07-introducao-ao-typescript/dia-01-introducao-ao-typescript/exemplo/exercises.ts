@@ -29,3 +29,7 @@ export function triangleCheck(
 export function getRhombusArea(D: number, d: number): number {
   return (d * D) / 2
 };
+
+export function getTrapezoidArea(h: number, B: number, b: number): number {
+  return ((B + b) * h) / 2;
+};
