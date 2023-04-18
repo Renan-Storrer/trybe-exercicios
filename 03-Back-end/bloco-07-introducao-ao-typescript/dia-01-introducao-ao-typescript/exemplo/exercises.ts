@@ -8,4 +8,9 @@ export function getRetangleArea(base: number, height: number): number {
 
 export function getTriangleArea(base: number, height: number): number {
   return (base * height) / 2;
-}
+};
+
+
+export function getPolygonPerimeter(sides: number[]): number {
+  return sides.reduce((acc, side) => acc + side, 0);
+};
