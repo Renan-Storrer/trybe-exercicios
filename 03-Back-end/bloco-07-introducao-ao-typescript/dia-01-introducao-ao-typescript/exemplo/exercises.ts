@@ -33,3 +33,7 @@ export function getRhombusArea(D: number, d: number): number {
 export function getTrapezoidArea(h: number, B: number, b: number): number {
   return ((B + b) * h) / 2;
 };
+
+export function getCircleArea(radius: number): number {
+  return Math.PI * radius ** 2;
+};
