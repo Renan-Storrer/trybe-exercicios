@@ -25,3 +25,7 @@ export function triangleCheck(
   const checkSideC = (sideA - sideB) < sideC && sideC < (sideA + sideB);
   return checkSideA && checkSideB && checkSideC;
 };
+
+export function getRhombusArea(D: number, d: number): number {
+  return (d * D) / 2
+};
