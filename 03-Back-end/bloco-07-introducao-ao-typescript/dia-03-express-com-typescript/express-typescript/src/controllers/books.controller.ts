@@ -1,7 +1,7 @@
 // ./controllers/books.controller.ts
 
 import { Request, Response } from 'express';
-import statusCodes from '../statusCodes';
+import statusCodes from '../../statusCodes';
 import BookService from '../services/books.service';
 
 class BooksController {

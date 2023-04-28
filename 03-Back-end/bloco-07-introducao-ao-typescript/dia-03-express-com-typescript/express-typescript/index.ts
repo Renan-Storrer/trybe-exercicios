@@ -3,7 +3,7 @@
 import express, { NextFunction ,Request, Response } from 'express';
 import statusCodes from './statusCodes';
 import 'express-async-errors';
-import BooksRoutes from './routes/books.routes';
+import BooksRoutes from './src/routes/books.routes';
 
 const app = express();
 
