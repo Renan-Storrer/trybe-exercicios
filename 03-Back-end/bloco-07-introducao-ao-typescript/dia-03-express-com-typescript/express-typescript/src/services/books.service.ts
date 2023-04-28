@@ -13,6 +13,11 @@ class BookService {
     const books = await this.model.getAll();
     return books;
   }
+
+  async getById(id: number): Promise<Book> {
+    const book = await this.model.getById(id);
+    return book;
+  }
 }
 
 export default BookService;
