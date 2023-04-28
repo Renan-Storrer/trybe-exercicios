@@ -3,6 +3,7 @@
 import express, { NextFunction ,Request, Response } from 'express';
 import statusCodes from './statusCodes';
 import 'express-async-errors';
+import BooksRoutes from './routes/books.routes';
 
 const app = express();
 
@@ -38,6 +39,8 @@ app.use((err: Error, _req: Request, res: Response, next: NextFunction) => {
 
   next();
 });
+
+app.use(BooksRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
