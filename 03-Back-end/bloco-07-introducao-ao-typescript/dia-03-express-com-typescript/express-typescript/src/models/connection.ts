@@ -1,4 +1,4 @@
-import mysql from 'mysql2/promise'; // instalar mysql2
+import mysql from 'mysql2/promise';
 
 export default mysql.createPool({
   host: process.env.DB_HOSTNAME,
