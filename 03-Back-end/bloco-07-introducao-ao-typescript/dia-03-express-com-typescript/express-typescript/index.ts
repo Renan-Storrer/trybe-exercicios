@@ -2,6 +2,7 @@
 
 import express, { NextFunction ,Request, Response } from 'express';
 import statusCodes from './statusCodes';
+import 'express-async-errors';
 
 const app = express();
 
