@@ -19,3 +19,6 @@ class Tv {
     );
   }
 }
+
+const tv1 = new Tv('LG', 32,'4k', ['HDMI', 'Ethernet', 'Wi-Fi']);
+tv1.turnOn();
