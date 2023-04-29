@@ -13,7 +13,9 @@ class Tv {
     this.connections = c;
   }
 
-  turnOn() {
-    console.log(`brand`)
+  turnOn(): void {
+    console.log(`TV ${this.brand}, ${this.size}", resolution: ${this.resolution} \n\
+    available connections: ${this.connections}`
+    );
   }
 }
