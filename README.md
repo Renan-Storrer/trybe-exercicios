@@ -200,7 +200,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 27-3: _Polimorfimo_
 - [X] 27-4: _SOLID - introdução S, O e D_
 - [X] 27-5: _SOLID Principios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+- [X] 27-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: Projeto TFC - Trybe Futebol Clube
 
