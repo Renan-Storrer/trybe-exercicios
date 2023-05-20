@@ -134,7 +134,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 18-1: _[Projeto - App de Receitas](https://github.com/Renan-Storrer/16-AppDeReceitas)_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### Bloco 19: Docker - Utilizando Containers
 
