@@ -206,35 +206,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/Renan-Storrer/25-Tryber-Football-Club)_
 
-##### Bloco 29: Introdução ao MongoDB
-
-- [ ] 29-1: _MongoDB - introdução_
-- [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates simples_
-- [ ] 29-5: _Updates Complexos - arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
-
-##### Bloco 30: APIs OO e NoSQL
-
-- [ ] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
-- [ ] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
-- [ ] 30-3: _[Projeto - Car Shop]()_
-
-##### Bloco 31: Projeto App de Delivery
-
-- [ ] 31-1: _[Projeto - App de Delivery]()_
-
 ## Ciencia da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: Introdução - à Python
+##### Bloco 29: Introdução - à Python
 
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Entrada e saída de Dados_
 - [ ] 35-3: _Testes_
 - [ ] 35-4: _[Projeto - Job Insights]()_
 
-##### Bloco 36: Padrões de Projeto
+##### Bloco 30: Padrões de Projeto
 
 - [ ] 35-1: _P.O.O em Python_
 - [ ] 35-2: _Padrões - Iterator, Adapter, Strategy_
