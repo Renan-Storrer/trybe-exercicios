@@ -216,8 +216,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 30: Algoritmos
 
 - [ ] 35-1: _Complexidade de Algoritmos_
-- [ ] 35-2: _Padrões - Iterator, Adapter, Strategy_
-- [ ] 35-3: _Decorator, Observe, Factory_
-- [ ] 35-4: _[Projeto - Relatórios de Estoque]()_
+- [ ] 35-2: _Recursividade e Estratégias para Solução de Problemas_
+- [ ] 35-3: _Algoritmos de ordenação e busca_
+- [ ] 35-4: _[Projeto - Algoritmos]()_
 
 # [...]
