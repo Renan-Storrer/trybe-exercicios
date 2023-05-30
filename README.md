@@ -213,9 +213,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 35-1: _Aprendendo Python_
 - [X] 35-2: _Entrada e saída de Dados com Testes_
 
-##### Bloco 30: Padrões de Projeto
+##### Bloco 30: Algoritmos
 
-- [ ] 35-1: _P.O.O em Python_
+- [ ] 35-1: _Complexidade de Algoritmos_
 - [ ] 35-2: _Padrões - Iterator, Adapter, Strategy_
 - [ ] 35-3: _Decorator, Observe, Factory_
 - [ ] 35-4: _[Projeto - Relatórios de Estoque]()_
