@@ -210,14 +210,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Introdução à Python
 
-- [X] 35-1: _Aprendendo Python_
-- [X] 35-2: _Entrada e saída de Dados com Testes_
+- [X] 29-1: _Aprendendo Python_
+- [X] 29-2: _Entrada e saída de Dados com Testes_
 
 ##### Bloco 30: Algoritmos
 
-- [X] 35-1: _Complexidade de Algoritmos_
-- [X] 35-2: _Recursividade e Estratégias para Solução de Problemas_
-- [X] 35-3: _Algoritmos de ordenação e busca_
-- [X] 35-4: _[Projeto - Algoritmos]()_
+- [X] 30-1: _Complexidade de Algoritmos_
+- [X] 30-2: _Recursividade e Estratégias para Solução de Problemas_
+- [X] 30-3: _Algoritmos de ordenação e busca_
+- [X] 30-4: _[Projeto - Algoritmos]()_
+
+##### Bloco 31: Estrutura de Dados 1: Listas Lineares
+
+- [ ] 31-1: _POO em Python_
+- [ ] 31-2: _Arrays_
+- [ ] 31-3: _Nó e Listas Encadeadas_
+- [ ] 31-4: _Pilhas e Filas_
+- [ ] 31-5: _[Projeto - TING - Trybe Is Not Google]()_
 
 # [...]
