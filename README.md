@@ -218,7 +218,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 30-1: _Complexidade de Algoritmos_
 - [X] 30-2: _Recursividade e Estratégias para Solução de Problemas_
 - [X] 30-3: _Algoritmos de ordenação e busca_
-- [X] 30-4: _[Projeto - Algoritmos]()_
+- [X] 30-4: _[Projeto - Algoritmos](https://github.com/Renan-Storrer/26-Algoritmos)_
 
 ##### Bloco 31: Estrutura de Dados 1: Listas Lineares
 
