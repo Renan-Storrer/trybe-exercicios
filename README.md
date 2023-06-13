@@ -222,7 +222,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 31: Estrutura de Dados 1: Listas Lineares
 
-- [ ] 31-1: _POO em Python_
+- [X] 31-1: _POO em Python_
 - [ ] 31-2: _Arrays_
 - [ ] 31-3: _Nó e Listas Encadeadas_
 - [ ] 31-4: _Pilhas e Filas_
