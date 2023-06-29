@@ -206,7 +206,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/Renan-Storrer/25-Tryber-Football-Club)_
 
-## Ciencia da Computação :hourglass_flowing_sand:
+## Ciencia da Computação :white_check_mark:
 
 ##### Bloco 29: Introdução à Python
 
@@ -233,5 +233,36 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 32-1: _Hashmap e Dict_
 - [X] 32-2: _Set_
 - [ ] 31-5: _[Projeto - Restaurant Orders]()_
+
+## Certificações Eleteivas :hourglass_flowing_sand:
+
+### C#
+
+##### Seção 01: Fundamentos e Recursos da Linguagem C# 
+
+- [X] 01-1: _Hellow World em C# e .NET_
+- [ ] 01-2: _Variáveis com Tipo, Condicionais e Loops_
+- [ ] 01-3: _Arrays, Funções e Excerções_
+- [ ] 01-4: _Aula ao vivo_
+- [ ] 01-5: _Manipulação de Tipos e Debugger_
+
+##### Seção 02: Orientação a Objetos com C# 
+
+- [ ] 02-1: _Abstração e métodos estáticos_
+- [ ] 02-2: _Aula ao vivo_
+- [ ] 02-3: _Composição e Herança_
+
+##### Seção 03: API C# Web
+
+- [ ] 03-1: _APS.NET - C# na web_
+- [ ] 03-2: _Criando APIs com ASP.NET_
+- [ ] 03-3: _Aula ao vivo_
+- [ ] 03-4: _Boas práticas de APIs_
+
+##### Seção 04: Coleções e buscas
+
+- [ ] 04-1: _LINQ e DTO_
+- [ ] 04-2: _Aula ao vivo_
+- [ ] 04-3: _Consultas avançadas e Expressões Lambda_
 
 # [...]
