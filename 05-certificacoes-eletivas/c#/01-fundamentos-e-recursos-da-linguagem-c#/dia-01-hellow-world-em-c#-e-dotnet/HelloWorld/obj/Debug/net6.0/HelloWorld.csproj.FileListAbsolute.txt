@@ -1,0 +1,15 @@
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/bin/Debug/net6.0/HelloWorld
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/bin/Debug/net6.0/ref/HelloWorld.dll
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/home/renan/curso-trybe/trybe-exercicios/05-certificacoes-eletivas/c#/01-fundamentos-e-recursos-da-linguagem-c#/dia-01-hellow-world-em-c#-e-dotnet/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
