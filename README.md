@@ -232,7 +232,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 32-1: _Hashmap e Dict_
 - [X] 32-2: _Set_
-- [ ] 31-5: _[Projeto - Restaurant Orders]()_
+- [ ] 31-5: _[Projeto - Restaurant Orders](https://github.com/Renan-Storrer/28-Restaurant-Orders)_
 
 ## Certificações Eleteivas :hourglass_flowing_sand:
 
