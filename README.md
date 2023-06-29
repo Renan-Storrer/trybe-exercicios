@@ -226,7 +226,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 31-2: _Arrays_
 - [X] 31-3: _Nó e Listas Encadeadas_
 - [X] 31-4: _Pilhas e Filas_
-- [ ] 31-5: _[Projeto - TING - Trybe Is Not Google]()_
+- [ ] 31-5: _[Projeto - TING - Trybe Is Not Google](https://github.com/Renan-Storrer/27-TING)_
 
 ##### Bloco 32: Estrutura de Dados 2: Hashmaps e Sets
 
