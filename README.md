@@ -241,7 +241,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 01: Fundamentos e Recursos da Linguagem C# 
 
 - [X] 01-1: _Hellow World em C# e .NET_
-- [ ] 01-2: _Variáveis com Tipo, Condicionais e Loops_
+- [X] 01-2: _Variáveis com Tipo, Condicionais e Loops_
 - [ ] 01-3: _Arrays, Funções e Excerções_
 - [ ] 01-4: _Aula ao vivo_
 - [ ] 01-5: _Manipulação de Tipos e Debugger_
