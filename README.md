@@ -243,8 +243,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 01-1: _Hellow World em C# e .NET_
 - [X] 01-2: _Variáveis com Tipo, Condicionais e Loops_
 - [X] 01-3: _Arrays, Funções e Excerções_
-- [ ] 01-4: _Aula ao vivo_
-- [ ] 01-5: _Manipulação de Tipos e Debugger_
+- [X] 01-4: _Aula ao vivo_
+- [X] 01-5: _Manipulação de Tipos e Debugger_
 
 ##### Seção 02: Orientação a Objetos com C# 
 
